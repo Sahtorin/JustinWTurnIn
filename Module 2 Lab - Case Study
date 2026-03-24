@@ -1,0 +1,13 @@
+
+
+First_Name = input("Enter your first name: ")
+Last_Name = input("Enter your last name: ")
+GPA = float(input("Enter your GPA: "))
+
+while Last_Name != "ZZZ":
+    if GPA >= 3.5:
+        print(f"Congratulations, {First_Name}, You are eligible for the Dean's List.")
+    elif GPA >= 3.25 and GPA < 3.5:
+        print(f"Congratulations, {First_Name}, You are eligible for the Honor Roll.")
+    else:
+    print(f"Sorry, {First_Name}, you aren't eligible for the Dean's List or Honor Roll.")
